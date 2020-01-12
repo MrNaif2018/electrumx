@@ -3305,3 +3305,19 @@ class GravityZeroCoin(ScryptMixin, Coin):
     RPC_PORT = 36442
     ESTIMATE_FEE = 0.01
     RELAY_FEE = 0.01
+
+
+class PotCoin(Coin):
+    NAME = "PotCoin"
+    SHORTNAME = "POT"
+    NET = "mainnet"
+    P2PKH_VERBYTE = bytes.fromhex("37")
+    WIF_BYTE = bytes.fromhex("b7")
+    GENESIS_HASH = ('5c894fbcb3b4043cb3140473207a9691d05d20163c3d5ff9228217fd776e7637')
+    DAEMON = daemon.FakeEstimateLegacyRPCDaemon
+    TX_COUNT = 7214244
+    TX_COUNT_HEIGHT = 3607122
+    TX_PER_BLOCK = 2
+    RPC_PORT = 42000
+    ESTIMATE_FEE = 0.01
+    RELAY_FEE = 0.01
