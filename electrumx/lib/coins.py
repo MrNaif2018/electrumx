@@ -3307,7 +3307,7 @@ class GravityZeroCoin(ScryptMixin, Coin):
     RELAY_FEE = 0.01
 
 
-class PotCoin(Coin):
+class PotCoin(ScryptMixin, Coin):
     NAME = "PotCoin"
     SHORTNAME = "POT"
     NET = "mainnet"
