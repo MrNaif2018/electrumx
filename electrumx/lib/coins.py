@@ -3313,7 +3313,7 @@ class PotCoin(ScryptMixin, Coin):
     NET = "mainnet"
     P2PKH_VERBYTE = bytes.fromhex("37")
     WIF_BYTE = bytes.fromhex("b7")
-    GENESIS_HASH = ('5c894fbcb3b4043cb3140473207a9691d05d20163c3d5ff9228217fd776e7637')
+    GENESIS_HASH = ('000009843402ca9fd91cbf5ca0203b808f48fd87cf1ef52b796acd6e5d624342')
     DAEMON = daemon.FakeEstimateLegacyRPCDaemon
     TX_COUNT = 7214244
     TX_COUNT_HEIGHT = 3607122
