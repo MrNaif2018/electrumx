@@ -3313,7 +3313,7 @@ class PotCoin(Coin):
     NET = "mainnet"
     P2PKH_VERBYTE = bytes.fromhex("37")
     WIF_BYTE = bytes.fromhex("b7")
-    GENESIS_HASH = ('000009843402ca9fd91cbf5ca0203b808f48fd87cf1ef52b796acd6e5d624342')
+    GENESIS_HASH = ('de36b0cb2a9c7d1d7ac0174d0a89918f874fabcf5f9741dd52cd6d04ee1335ec')
     DAEMON = daemon.FakeEstimateLegacyRPCDaemon
     TX_COUNT = 7214244
     TX_COUNT_HEIGHT = 3607122
